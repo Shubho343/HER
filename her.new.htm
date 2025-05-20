@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For Debosmita, My Love</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #fbd3e9, #bb377d);
+            font-family: 'Georgia', serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 5% auto;
+            background: #fff0f6;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 3em;
+            color: #bb377d;
+        }
+        p {
+            font-size: 1.3em;
+            line-height: 1.8;
+        }
+        .signature {
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #444;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 1.1em;
+            background-color: #bb377d;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .button:hover {
+            background-color: #a43069;
+        }
+        .surprise {
+            display: none;
+            margin-top: 40px;
+            font-size: 1.4em;
+            color: #bb377d;
+            animation: fadeIn 2s ease-in-out forwards;
+        }
+
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>For Debosmita</h1>
+        <p>
+            My dearest Debosmita,<br><br>
+            From the moment you walked into my life, everything changed. Your voice, your smile, your kindness—everything about you has filled my heart in ways I never thought possible.<br><br>
+            You are the light in my darkest days, the warmth in my coldest nights, and the reason behind every smile I wear.<br><br>
+            Every moment with you feels like a beautiful dream I never want to wake up from. And now, I want that dream to become our forever.<br><br>
+            So today, I ask you from the depths of my heart…
+        </p>
+        <button class="button" onclick="showMessage()">Will You Be Mine Forever?</button>
+        <div class="surprise" id="surpriseMessage">
+            I promise to love you, support you, and grow with you every step of the way. Let's write our story together, Debosmita... one filled with laughter, adventures, and endless love. Will you make me the happiest person in the world?
+        </div>
+        <div class="signature">
+            Forever yours,<br>
+            Alex
+        </div>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("surpriseMessage").style.display = "block";
+        }
+    </script>
+</body>
+</html>
